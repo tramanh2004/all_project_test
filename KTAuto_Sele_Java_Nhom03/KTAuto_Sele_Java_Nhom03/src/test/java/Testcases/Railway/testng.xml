@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="classes" thread-count="1">
+    <test name="ParallelTests">
+        <classes>
+            <class name="Testcases.Railway.LoginTest"/>
+            <class name="Testcases.Railway.TC02"/>
+            <class name="Testcases.Railway.TC03"/>
+            <class name="Testcases.Railway.TC04"/>
+            <class name="Testcases.Railway.TC05"/>
+            <class name="Testcases.Railway.TC06"/>
+            <class name="Testcases.Railway.TC07"/>
+            <class name="Testcases.Railway.TC08"/>
+            <class name="Testcases.Railway.TC09"/>
+            <class name="Testcases.Railway.TC10"/>
+            <class name="Testcases.Railway.TC11"/>
+            <class name="Testcases.Railway.TC12"/>
+            <class name="Testcases.Railway.TC13"/>
+            <class name="Testcases.Railway.TC14"/>
+            <class name="Testcases.Railway.TC15"/>
+            <class name="Testcases.Railway.TC16"/>
+        </classes>
+    </test>
+</suite>
